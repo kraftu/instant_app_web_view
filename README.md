@@ -1,7 +1,7 @@
 # Android Instant Apps - Error accessing resources in features after use WebView
 
 ## How to repeat error
-An error is reproduced: Any device
+An error is reproduced: Samsung SM-G920F Android 7.0
 
 ```
 1) Install instant App, open feature 'buy';
@@ -9,7 +9,6 @@ An error is reproduced: Any device
 ```
 
 ## Crash log
-Device: Samsung SM-G920F Android 7.0
 ```
 08-31 16:09:48.666 12323-12497/? E/Isotope: UID: [10418]  PID: [12323] IActivityManagerProxy : Instant app: com.google.android.instantapps.samples.hellofeature crashed: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.google.android.instantapps.samples.hellofeature/com.instantappsamples.feature.bye.NextActivity}: android.content.res.Resources$NotFoundException: Resource ID #0x7e020001
         at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2927)
